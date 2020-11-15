@@ -1,0 +1,23 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.overlay .title,
+.overlay .project {
+  height: auto;
+  width: 100%;
+  margin: 0.5rem;
+}
