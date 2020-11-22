@@ -1,18 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 class Sidebar extends React.Component {
-  state = {
-    sidebarOpen: false,
-    drawerClasses: "sidebar",
-  };
+  // state = {
+  //   // sidebarOpen: false,
+  //   // drawerClasses: "sidebar",
+  // };
 
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    this.setState({ sidebarOpen: props.show });
-  }
+  //   // this.setState({ sidebarOpen: props.show });
+  // }
 
   render() {
     let drawerClasses = "sidebar";

@@ -1,5 +1,4 @@
 .gallery {
-  background-color: lightgray;
   width: 100%;
   height: auto;
   padding-bottom: 2rem;
@@ -19,10 +18,9 @@
 
 .gallery__contents {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   /* grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr)); */
-  align-items: center;
-  height: 100%;
+  height: auto;
   width: 100%;
 }

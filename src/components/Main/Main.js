@@ -1,17 +1,10 @@
 import React from "react";
-import Slider from "../Slider/Slider";
+import SliderContainer from "../Slider/SliderContainer";
+import Footer from "../Footer/Footer";
 import "./Main.css";
 
 function Welcome() {
   return <section className="welcome">Ebru Design</section>;
-}
-
-function SliderContainer() {
-  return (
-    <section className="slider__container">
-      <Slider />
-    </section>
-  );
 }
 
 function Main() {
@@ -19,6 +12,7 @@ function Main() {
     <main className="main">
       <Welcome />
       <SliderContainer />
+      {/* <Footer /> */}
     </main>
   );
 }

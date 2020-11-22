@@ -10,17 +10,6 @@ function Gallery() {
         <GalleryItem />
         <GalleryItem />
         <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
-        <GalleryItem />
       </div>
     </div>
   );

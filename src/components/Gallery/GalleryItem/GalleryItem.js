@@ -7,7 +7,7 @@ function GalleryItem() {
   return (
     <div className="item">
       <Backdrop />
-      <img className="image" src="https://picsum.photos/500/500" />
+      <img className="image" src="https://picsum.photos/600/600" />
     </div>
   );
 }

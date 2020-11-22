@@ -15,9 +15,6 @@
   z-index: 300;
 }
 
-.button.activated {
-}
-
 .button__line.moved {
   margin-left: 15px;
   transition: margin 0.3s ease-out;

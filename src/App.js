@@ -6,7 +6,10 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Gallery from "./components/Gallery/Gallery";
 import Product from "./components/Product/Product";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Backdrop from "./components/Backdrop/Backdrop";
 import "./App.css";
+
+// import DemoCarousel from "./components/DemoCarousel/DemoCarousel";
 
 class App extends React.Component {
   state = {
@@ -22,7 +25,14 @@ class App extends React.Component {
   };
 
   render() {
+    let backdrop;
+
+    if (this.state.sidebarOpen) {
+      backdrop = <Backdrop click={this.sidebarCloseHandler} />;
+    }
+
     return (
+      // <DemoCarousel />
       <Router>
         <div className="app">
           <Button
@@ -33,10 +43,7 @@ class App extends React.Component {
             show={this.state.sidebarOpen}
             hover={this.sidebarCloseHandler}
           />
-          {/* <Gallery />
-          <Main />
-          <Product /> */}
-
+          {backdrop}
           <Route path="/" exact component={Main} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/product" component={Product} />
