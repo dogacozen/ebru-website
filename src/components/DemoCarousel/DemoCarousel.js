@@ -24,17 +24,17 @@ class DemoCarousel extends Component {
         isPlaying={true}
       >
         <Slider>
-          <Slide index={0}>
-            <Image src="https://picsum.photos/800/800" className="image" />
+          <Slide index={0} className="image">
+            <Image src="https://picsum.photos/800/500" />
           </Slide>
-          <Slide index={1}>
-            <Image src="https://picsum.photos/800/800" className="image" />
+          <Slide index={1} className="image">
+            <Image src="https://picsum.photos/800/500" />
           </Slide>
-          <Slide index={2}>
-            <Image src="https://picsum.photos/800/800" className="image" />
+          <Slide index={2} className="image">
+            <Image src="https://picsum.photos/800/500" />
           </Slide>
-          <Slide index={3}>
-            <Image src="https://picsum.photos/800/800" className="image" />
+          <Slide index={3} className="image">
+            <Image src="https://picsum.photos/800/500" />
           </Slide>
         </Slider>
         <div className="slideInfo">

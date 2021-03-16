@@ -5,7 +5,7 @@ import Button from "./components/Button/Button";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Gallery from "./components/Gallery/Gallery";
 import Product from "./components/Product/Product";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Backdrop from "./components/Backdrop/Backdrop";
 import "./App.css";
 

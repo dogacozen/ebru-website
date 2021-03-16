@@ -10,11 +10,9 @@ body,
 #root {
   height: 100%;
   width: 100%;
-  /* overflow-x: hidden; */
-}
-
-#root {
+  color: black;
   background-color: lightgray;
+  /* overflow-x: hidden; */
 }
 
 ul {
